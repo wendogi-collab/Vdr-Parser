@@ -1,4 +1,5 @@
 # Vdr-Parser
+A project to initiate the automation &amp; extraction of file paths from a VDR
 
 A Python-based plugin-style toolchain to extract document references from a Virtual Data Room (VDR), normalize the folder path hierarchy, and export results into `.xlsx` for legal due diligence workflows.
 
