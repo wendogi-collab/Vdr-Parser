@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vdr-parser"
+version = "0.1.0"
+description = "Extract VDR file path references and export to XLSX"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "playwright>=1.40.0",
+  "openpyxl>=3.1.2",
+]
+
+[project.scripts]
+vdr-parser = "vdr_parser.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
